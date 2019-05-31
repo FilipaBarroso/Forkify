@@ -443,7 +443,7 @@ body {
   .shopping__list {
     list-style: none;
     max-height: 77rem;
-    overflow: scroll; }
+    overflow: auto; }
   .shopping__item {
     display: flex;
     align-items: flex-start;
@@ -465,7 +465,7 @@ body {
       font-size: 1.2rem;
       text-align: center;
       border: none;
-      width: 3.7rem;
+      width: 4.5rem;
       border-radius: 3px; }
       .shopping__count input:focus {
         outline: none;
